@@ -1,0 +1,79 @@
+1.
+A machine learning task is the type of prediction or inference being made, 
+based on the problem or question that is being asked, and the available data. For example,
+ the classification task assigns data to categories, and the clustering task groups data according to similarity.
+To make the process easier, data preprocessing is divided into four stages: data cleaning,
+ data integration, data reduction, and data transformation.
+2. 
+Quantitative data can be counted, measured, and expressed using numbers. Qualitative data is descriptive and conceptual.
+ Qualitative data can be categorized based on traits and characteristics.
+Brand names of shoes in a consumer survey and eye colors are examples of qualitative data.
+ Heights of students and quiz scores are examples of quantitative data.
+3.
+Some examples of numerical data are height, length, size, weight, and so on. 
+The quantitative data can be classified into two different types based on the data sets.
+ The two different classifications of numerical data are discrete data and continuous data.
+4.
+Noisy data, incomplete data, inaccurate data, and unclean data lead to less accuracy in classification and low-quality results. 
+Hence, data quality can also be considered as a major common problem while processing machine learning algorithms.
+5.
+Data exploration is the first step of data analysis used to explore and visualize data to uncover insights from the start or identify areas or patterns to dig into more. 
+Using interactive dashboards and point-and-click data exploration,
+ users can better understand the bigger picture and get to insights faster.
+6.
+Replacing With Arbitrary Value. ...
+Replacing With Mode. ...
+Replacing With Median. ...
+Replacing with previous value – Forward fill. ...
+Replacing with next value – Backward fill. ...
+Interpolation. ...
+Impute the Most Frequent Value
+To  fix the missing values in case the data distribution is symmetric. 
+Consider using median or mode with skewed data distribution. 
+Pandas Dataframe method in Python such as fillna can be used to replace the missing values.
+7.
+When dealing with missing data,
+ data scientists can use two primary methods to solve the error: imputation or the removal of data. 
+The imputation method develops reasonable guesses for missing data.
+ It's most useful when the percentage of missing data is low.
+8.
+Data preprocessing is the process of transforming raw data into an understandable format. 
+Feature selection is simply selecting and excluding given features without changing them.
+ Dimensionality reduction transforms features into a lower dimension.
+9
+1.
+The interquartile range (IQR) measures the spread of the middle half of your data. 
+It is the range for the middle 50% of your sample. 
+Use the IQR to assess the variability where most of your values lie.
+ Larger values indicate that the central portion of your data spread out further.
+2.
+The box in the box plot will show the median and the first and third quartiles. 
+The length of the upper whisker is the largest value that is no greater than the third quartile plus 1.5 times 
+the interquartile range. In this case,
+ the third quartile plus 1.5 times IQR is 10 + 1.5*6 = 19.
+The distance between the upper (75th percentile) and lower (25th percentile) lines of the box is 
+called the inter-quartile range (IQR). IQR is a popular measure of spread.
+ A line is drawn inside the box at the median (the 50th percentile).
+10.
+2.The interquartile range tells  the spread of the middle half of the distribution. 
+Quartiles segment any distribution that's ordered from low to high into four equal parts.
+ The interquartile range (IQR) contains the second and third quartiles, or the middle half of the data set.
+3.
+Cross-tabulation (also cross-tabulation or crosstab) is one of the most useful analytical tools 
+and a mainstay of the market research industry.
+ Cross-tabulation analysis, also known as contingency table analysis,
+ is most often used to analyze categorical (nominal measurement scale) data.
+11.
+1.
+Nominal data is classified without a natural order or rank, whereas ordinal data has a predetermined or natural order. 
+On the other hand, numerical or quantitative data will always be a number that can be measured.
+2.
+Histograms are a special kind of bar graph that shows a bar for a range of data values instead of a single value. 
+A box plot is a data display that draws a box over a number line to show the interquartile range of the data.
+ The 'whiskers' of a box plot show the least and greatest values in the data set.
+3.
+The mean (average) of a data set is found by adding all numbers in the data set 
+and then dividing by the number of values in the set.
+ The median is the middle value when a data set is ordered from least to greatest.
+ The mode is the number that occurs most often in a data set.
+
